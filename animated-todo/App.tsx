@@ -1,11 +1,11 @@
 import React from 'react'
-import AppContainer from './src/components/app-container'
+import MainContainer from './src/main.container'
 import Navigator from './src/'
 
 export default function App() {
   return (
-    <AppContainer>
+    <MainContainer>
       <Navigator />
-    </AppContainer>
+    </MainContainer>
   )
 }
